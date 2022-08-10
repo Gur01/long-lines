@@ -1,6 +1,4 @@
-# This is a test project for traders was bootstrapped with Create React App.
-
-## Deployed on netlify https://admirable-gnome-45f55d.netlify.app/
+# This is a test project was bootstrapped with Create React App.
 
 ## Available Scripts
 
