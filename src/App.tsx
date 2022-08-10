@@ -14,7 +14,6 @@ const App = () => {
 
             return () => {
                 const fromTop = window.scrollY;
-                console.log(fromTop);
 
                 if (fromTop > max) {
                     max = fromTop;
