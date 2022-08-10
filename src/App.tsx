@@ -26,10 +26,12 @@ const App = () => {
 
         setScreenHeight(window.innerHeight);
 
-        window.addEventListener('scroll', getOffset());
+        const onScroll = getOffset();
+
+        window.addEventListener('scroll', onScroll);
 
         return () => {
-            window.removeEventListener('scroll', getOffset());
+            window.removeEventListener('scroll', onScroll);
         };
     }, []);
 
